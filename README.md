@@ -38,17 +38,23 @@
 <div style="display: flex; flex-direction: column; align-items: center;">
   <!-- First image aligned to the left -->
   <p style="align-self: flex-start;">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ramesh-0&show_icons=true&locale=en&layout=compact" alt="ramesh-0" />
-  </p>
-
-  <!-- Centered second and third images below the first one -->
-  <p>
-    <img src="https://github-readme-stats.vercel.app/api?username=ramesh-0&show_icons=true&locale=en" alt="ramesh-0" />
-  </p>
-  
-  <p>
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ramesh-0&" alt="Ramesh-0" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Ramesh-0&show_icons=true&locale=en&layout=compact" alt="Ramesh-0" />
   </p>
 </div>
+
+<picture>
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=Ramesh-0&show_icons=true&theme=dark"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=Ramesh-0&show_icons=true"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="https://github-readme-stats.vercel.app/api?username=Ramesh-0&show_icons=true" />
+</picture>
+  
+
+
 
 
